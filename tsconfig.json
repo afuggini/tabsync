@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2015",
+    "skipLibCheck": true,
+    "strict": true,
+    "sourceMap": true,
+    "declaration": true,
+    "resolveJsonModule": true,
+    "outDir": "./lib",
+    "lib": ["DOM", "WebWorker", "ESNext"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "demo"]
+}
